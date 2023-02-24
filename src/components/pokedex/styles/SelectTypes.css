@@ -1,0 +1,27 @@
+.select_container {
+  background-color: rgba(255, 255, 255, 0.724);
+  display: flex;
+  justify-content: end;
+  border-radius: 4px;
+  width: 20%;
+  height: 2.9em;
+  margin-left: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 150ms ease;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.select_container:hover {
+  transform: scale(1.1);
+}
+.select_all-pokemons {
+  font-weight: 600;
+  background-color: #f0f2d6e6;
+}
+.select_option {
+  background-color: #f3f4e5;
+  font-weight: 600;
+  cursor: pointer;
+}

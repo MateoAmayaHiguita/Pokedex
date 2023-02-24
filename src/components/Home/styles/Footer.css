@@ -1,0 +1,16 @@
+.poke_footer {
+  width: 100%;
+  padding: 2em;
+  height: 30px;
+  background-color: #dd1a1a;
+  position: absolute;
+  bottom: 0;
+}
+.footer_black {
+  height: 30px;
+  width: 100%;
+  margin-left: -32px;
+  background-color: #0c0c0c;
+  position: absolute;
+  bottom: 0;
+}

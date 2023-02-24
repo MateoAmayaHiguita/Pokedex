@@ -1,0 +1,78 @@
+.home_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  max-width: 1800px;
+}
+.home_container-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fe1936;
+}
+.home_subtitle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+.home_input {
+  border: 1px solid black;
+  width: 16em;
+  height: 3.5em;
+  margin-top: 10px;
+  border-radius: 0.2em;
+  font-size: medium;
+  font-family: "Inter";
+  font-weight: 600;
+  border: 2px solid black;
+}
+.home_button {
+  border: 2px solid black;
+  width: 15em;
+  height: 3.6em;
+  border-radius: 0.2em;
+  background-color: #fe1936;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  transition: 0.3s ease all;
+  font-weight: 600;
+  font-size: medium;
+  margin-left: 0.8em;
+}
+.home_button::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: calc(-100% - 88px);
+  border-bottom: 80px solid #9f111abd;
+  border-right: 80px solid transparent;
+  transition: 0.4s ease-in-out;
+}
+.home_button:hover::after {
+  left: 0;
+  color: white;
+}
+.home_button:hover {
+  transform: scale(1.1);
+}

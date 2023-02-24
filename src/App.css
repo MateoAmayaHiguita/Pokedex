@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+option,
+select {
+  font-size: 1rem;
+}
